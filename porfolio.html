@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anta laye Mbaye - Product Designer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #1A1A2E; /* Bleu nuit foncé */
+      margin: 0;
+      padding: 0;
+      color: #ffffff;
+    }
+    .navbar {
+      background-color: #1A1A2E;
+    }
+    .navbar-brand {
+      color: #fff;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .navbar-nav .nav-link {
+      color: #fff;
+      font-weight: 500;
+      margin-right: 20px;
+    }
+    .btn-contact {
+      background-color: #6C63FF; /* Indigo violet */
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 30px;
+      font-weight: 500;
+    }
+    .hero-section {
+      background-color: #ffffff;
+      color: #1A1A2E;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-weight: bold;
+      font-size: 42px;
+    }
+    .highlight {
+      color: #6C63FF; /* Indigo violet */
+    }
+    .services-section {
+      padding: 60px 0;
+      background-color: #ffffff;
+      color: #1A1A2E;
+      text-align: center;
+    }
+    .service-card {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-10px);
+    }
+    .about-section {
+      background-color: #1A1A2E;
+      color: #fff;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .tools-section {
+      padding: 60px 0;
+      text-align: center;
+      background-color: #ffffff;
+      color: #1A1A2E;
+    }
+    .tools-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+    }
+    .tool-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .tool-item img {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Anta laye Mbaye.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+          <li class="nav-item"><a class="btn btn-contact" href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1>Bonjour!</h1>
+          <h3>Je suis <span class="highlight">Anta laye Mbaye</span>,<br> Marketing et communication digitale.</h3>
+          <p>Une passionnée de marketing digital actuellement en formation à École221, avec une expertise croissante dans la création de campagnes publicitaires digitales, le branding et la stratégie de contenu.je conçois des produits numériques pour les startups et entreprises ambitieuses</p>
+          <div class="mt-4">
+            <a href="#" class="btn btn-dark me-3">Voir mon portfolio</a>
+            <a href="#" class="btn btn-outline-dark">Engagez-moi</a>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center mt-5 mt-md-0">
+          <div style="
+            width: 300px;
+            height: 300px;
+            background: #6C63FF;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 30px rgba(108, 99, 255, 0.6);
+            overflow: hidden;
+          ">
+            <img src="Photo_Anta-removebg-preview.png" alt="Anta laye Mbaye" class="rounded-circle" width="290">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section">
+    <div class="container">
+      <h2><span class="highlight">Mes services</span></h2>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="service-card">
+            <h5>Community Management</h5>
+    <p>Animation quotidienne de communautés sur les réseaux sociaux, création de calendriers éditoriaux et gestion de la relation client en ligne.</p>
+    <a href="#">Pour en savoir plus</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card">
+           <h5>Content Creation</h5>
+    <p>Création de contenus engageants (vidéos, visuels, textes) adaptés aux différentes plateformes pour renforcer votre image de marque.</p>
+    <a href="#">Pour en savoir plus</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card">
+            <h5>Audit et Analyse de Performances</h5>
+    <p>Analyse des performances de vos campagnes marketing et proposition de recommandations pour améliorer le ROI et l’engagement.</p>
+    <a href="#">Pour en savoir plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="container">
+      <h3>Qui est <span class="highlight">Anta laye Mbaye?</span></h3>
+      <p>Je me suis spécialisée dans la gestion de campagnes publicitaires digitales, la conception de visuels créatifs et l’analyse des performances marketing pour accompagner les entreprises et startups dans leur croissance digitale.</p>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-3">
+          <h4>+20</h4>
+          <p>projets étudiants et professionnels réalisés</p>
+        </div>
+        <div class="col-md-3">
+          <h4>6</h4>
+          <p>secteurs d’activité explorés (éducation, mode, food, tech, etc.)</p>
+        </div>
+        <div class="col-md-3">
+          <h4>2 ans</h4>
+          <p>d’expérience en apprentissage intensif à l'École221</p>
+        </div>
+      </div>
+      <div class="mt-4">
+        <a href="#" class="btn btn-contact">Télécharger le CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tools Section -->
+  <section class="tools-section">
+    <div class="container">
+      <h2 class="highlight">Mes outils préférés</h2>
+      <h3>Explorer les outils qui sous-tendent mes conceptions</h3>
+      <div class="tools-icons">
+        <div class="tool-item">
+          <img src="téléchargement.jpeg" alt="Canva" width="60">
+          <p>Canva</p>
+        </div>
+        <div class="tool-item">
+          <img src="images.png" alt="Illustrator" width="60">
+          <p>Illustrator</p>
+        </div>
+        <div class="tool-item">
+          <img src="meta.png" alt="Meta Business Suite" width="60">
+          <p>Meta</p>
+        </div>
+        <div class="tool-item">
+          <img src="téléchargement (1).png" alt="Premiere pro" width="60">
+          <p>Premiere pro</p>
+        </div>
+        <div class="tool-item">
+          <img src="PS.png" alt="Photoshop" width="100">
+          <p>Photoshop</p>
+        </div>
+        <div class="tool-item">
+          <img src="images (1).png" alt="Notion" width="60">
+          <p>Notion</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
